@@ -1,8 +1,9 @@
 $(document).ready(function () {
-        $('.slider-home').slick({
-                centerMode: true,
+        $('.slider_home').slick({
+                centerMode: false,
                 centerPadding: '60px',
-                slidesToShow: 3,
+                infinite: true,
+                slidesToShow: 6,
                 responsive: [
                         {
                                 breakpoint: 768,
