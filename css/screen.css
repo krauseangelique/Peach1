@@ -23,7 +23,7 @@ body{
     width: 100%;
     position: relative;
 }
-.Status_bar {
+.Status_bar_sign {
     width: 100%;
     position: absolute;
     z-index: 2;
