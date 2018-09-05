@@ -91,3 +91,38 @@ body{
 /* page Help : Aimé */
 
 /* page Transfert : Dialo */
+
+.statut_bar
+{
+    
+    background-color: black;
+    color:red;
+    height: 100px;
+}
+
+.menu_header_transfert ul
+{
+   position: relative; 
+   left: -2rem;
+}
+
+.menu_header_transfert ul li 
+{
+    display: inline-block;
+    padding: 0rem 6rem; 
+    margin-left: 0;
+    
+}
+
+.menu_header_transfert
+{
+    
+}
+
+form input
+{
+   border: none;
+    position: relative;
+    margin-top: 1.5rem;
+    
+}
