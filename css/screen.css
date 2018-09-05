@@ -2,46 +2,70 @@
 
 /* Définition des polices personnalisées */
 
-
 /* Eléments principaux de la page */
 
-html{
-    font-size: 16px;
+html {
+        font-size: 16px;
 }
 
-body{
-    background-color: #FFF; /* white */
-    color: #000; /* black */
-    font-family: 'Trebuchet MS',Arial,sans-serif;
-    
+body {
+        background-color: #FFF;
+        /* white */
+        color: #000;
+        /* black */
+        font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 /* Attribution des pages */
 
 /* page Sign : Marc */
+
 .menu {
-    width: 100%;
-    position: relative;
+        width: 100%;
+        position: relative;
 }
+
 .Status_bar_sign {
-    width: 100%;
-    position: absolute;
-    z-index: 2;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
 }
+
 .background_sign {
-    top: -15rem;
-    left: -8rem;
-    position: absolute;
-    z-index: 1;
+        top: -15rem;
+        left: -8rem;
+        position: absolute;
+        z-index: 1;
 }
+
 .peach {
-    top: 6rem;
-    left: 7rem;
-    color: #FFF;
-    position: absolute;
-    z-index: 1;
+        top: 6rem;
+        left: 7rem;
+        color: #FFF;
+        position: absolute;
+        z-index: 1;
 }
+
 /* page Home : Laurent */
+
+.body_home {
+        background-image: url(../img/backgroundHome.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+
+.partie_du_haut div:first-child {
+        text-align: left;
+}
+
+.partie_du_haut div:last-child {
+        text-align: right;
+}
+
+.partie_du_haut {
+        text-align: center;
+        margin: 5rem 0.5rem 3rem 0.5rem;
+}
 
 /* page Account : Thomas */
 
@@ -57,34 +81,24 @@ body{
 -
 /* ----------------------------- */
 
-.container_header_account
-{
-    position: absolute;
-    width:100%;
-    top:-20rem; 
-    left: -10rem;
+.container_header_account {
+        position: absolute;
+        width: 100%;
+        top: -20rem;
+        left: -10rem;
 }
 
-.background_account
-{
-     width:200%;
+.background_account {
+        width: 200%;
 }
 
-.container_status_bar
-{
-    position: absolute;
-    width:100%;
-    left: -2rem;
-    
+.container_status_bar {
+        position: absolute;
+        width: 100%;
+        left: -2rem;
 }
 
-.status_bar
-{
-    
-}
-
-
-
+.status_bar {}
 
 /* ----------------------------- */
 
