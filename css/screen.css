@@ -6,15 +6,16 @@
 /* Eléments principaux de la page */
 
 html{
-    font-size: 62.5%; /* Equivalence 10px sur l'elmt racine */
+    font-size: 16px;
 }
 
 body{
     background-color: #FFF; /* white */
     color: #000; /* black */
     font-family: 'Trebuchet MS',Arial,sans-serif;
-    font-size: 1.4em; /* Taille de base pour tous les éléments équivalent à 14 px */
+    font-size: 1rem;
 }
+
 /* Attribution des pages */
 /* page Sign : Marc */
 
@@ -45,4 +46,4 @@ body{
 
 /* page Help : Aimé */
 
-/* page Transfert : Angélique */
+/* page Transfert : Dialo */
