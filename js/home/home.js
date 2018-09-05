@@ -3,7 +3,7 @@ $(document).ready(function () {
                 centerMode: false,
                 centerPadding: '60px',
                 infinite: true,
-                slidesToShow: 6,
+                slidesToShow: 3,
                 responsive: [
                         {
                                 breakpoint: 768,

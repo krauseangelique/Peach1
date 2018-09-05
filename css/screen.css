@@ -54,13 +54,21 @@ body {
         background-size: 100%;
 }
 
-.partie_du_haut div:first-child {
+.align_left {
+        text-align: left;
+}
+
+.align_right {
+        text-align: right;
+}
+
+/* .partie_du_haut div:first-child {
         text-align: left;
 }
 
 .partie_du_haut div:last-child {
         text-align: right;
-}
+} */
 
 .partie_du_haut {
         text-align: center;
