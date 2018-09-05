@@ -84,30 +84,12 @@ body{
     background-size: 100%;
 }
 
-<<<<<<< HEAD
 .align_left {
         text-align: left;
 }
 
 .align_right {
         text-align: right;
-=======
-.partie_du_haut div:first-child {
-    text-align: left;
-}
-
-.partie_du_haut div:last-child {
-    text-align: right;
->>>>>>> 1f17277b2876a04a9ac2e364934baff9415c8d32
-}
-
-/* .partie_du_haut div:first-child {
-        text-align: left;
-}
-
-.partie_du_haut div:last-child {
-        text-align: right;
-} */
 
 .partie_du_haut {
     text-align: center;
@@ -163,41 +145,3 @@ body{
 
 <<<<<<< HEAD
 /* page Transfert : Dialo */
-
-.statut_bar
-{
-    
-    background-color: black;
-    color:red;
-    height: 100px;
-}
-
-.menu_header_transfert ul
-{
-   position: relative; 
-   left: -2rem;
-}
-
-.menu_header_transfert ul li 
-{
-    display: inline-block;
-    padding: 0rem 6rem; 
-    margin-left: 0;
-    
-}
-
-.menu_header_transfert
-{
-    
-}
-
-form input
-{
-   border: none;
-    position: relative;
-    margin-top: 1.5rem;
-    
-}
-=======
-/* page Transfert : Dialo */
->>>>>>> 1e7c4ded9c29460e00221f4a8a37aaa93090433d
