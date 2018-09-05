@@ -13,31 +13,75 @@ body{
     background-color: #FFF; /* white */
     color: #000; /* black */
     font-family: 'Trebuchet MS',Arial,sans-serif;
+    
 }
 
 /* Attribution des pages */
 
 /* page Sign : Marc */
-
+.menu {
+    width: 100%;
+    position: relative;
+}
+.Status_bar_sign {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.background_sign {
+    top: -15rem;
+    left: -8rem;
+    position: absolute;
+    z-index: 1;
+}
+.peach {
+    top: 6rem;
+    left: 7rem;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+}
 /* page Home : Laurent */
 
 /* page Account : Thomas */
 
-/* ----- classes utilisées ----- */ 
+/* ----- classes utilisées ----- *\ 
 
-- 123456789
+- background_account
+- container_header_account
+- container_status_bar
+- status_bar
 -
 -
 -
 -
--
--
--
-
-
 /* ----------------------------- */
 
+.container_header_account
+{
+    position: absolute;
+    width:100%;
+    top:-20rem; 
+    left: -10rem;
+}
 
+.background_account
+{
+     width:200%;
+}
+
+.container_status_bar
+{
+    position: absolute;
+    width:100%;
+    left: -2rem;
+    
+}
+
+.status_bar
+{
+    
+}
 
 
 
