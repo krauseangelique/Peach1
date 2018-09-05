@@ -23,14 +23,21 @@ body{
     width: 100%;
     position: relative;
 }
-.StatusBar {
+.Status_bar {
     width: 100%;
     position: absolute;
     z-index: 2;
 }
-.backgroundSign {
-    top: -20rem;
-    left: -10rem;
+.background_sign {
+    top: -15rem;
+    left: -8rem;
+    position: absolute;
+    z-index: 1;
+}
+.peach {
+    top: 6rem;
+    left: 7rem;
+    color: #FFF;
     position: absolute;
     z-index: 1;
 }
