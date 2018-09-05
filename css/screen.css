@@ -18,7 +18,21 @@ body{
 /* Attribution des pages */
 
 /* page Sign : Marc */
-
+.menu {
+    width: 100%;
+    position: relative;
+}
+.StatusBar {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.backgroundSign {
+    top: -20rem;
+    left: -10rem;
+    position: absolute;
+    z-index: 1;
+}
 /* page Home : Laurent */
 
 /* page Account : Thomas */
