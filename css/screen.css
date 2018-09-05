@@ -2,46 +2,117 @@
 
 /* Définition des polices personnalisées */
 
-
 /* Eléments principaux de la page */
 
-html{
+html {
     font-size: 16px;
 }
+
 
 body{
     background-color: #FFF; /* white */
     color: #000; /* black */
     font-family: 'Trebuchet MS',Arial,sans-serif;
-    
+
 }
 
 /* Attribution des pages */
 
 /* page Sign : Marc */
+
+.sign:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../img/backgroundSign.png) no-repeat center top;
+    background-size: 150% 35rem;
+    transform: translateY(-10.5rem);
+    z-index: -1;
+}
+
+
 .menu {
     width: 100%;
     position: relative;
 }
+
 .Status_bar_sign {
     width: 100%;
     position: absolute;
     z-index: 2;
 }
+
 .background_sign {
     top: -15rem;
     left: -8rem;
     position: absolute;
     z-index: 1;
+
 }
+
 .peach {
+
     top: 6rem;
-    left: 7rem;
+    left: 6rem;
+    color: #FFF;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+.money {
+    top: 9rem;
+    left: 6rem;
     color: #FFF;
     position: absolute;
     z-index: 1;
 }
+.sign_in {
+    top: 20rem;
+    left: 7rem;
+    position: absolute;
+    z-index: 1;
+}
+
 /* page Home : Laurent */
+
+.body_home {
+    background-image: url(../img/backgroundHome.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+<<<<<<< HEAD
+.align_left {
+        text-align: left;
+}
+
+.align_right {
+        text-align: right;
+=======
+.partie_du_haut div:first-child {
+    text-align: left;
+}
+
+.partie_du_haut div:last-child {
+    text-align: right;
+>>>>>>> 1f17277b2876a04a9ac2e364934baff9415c8d32
+}
+
+/* .partie_du_haut div:first-child {
+        text-align: left;
+}
+
+.partie_du_haut div:last-child {
+        text-align: right;
+} */
+
+.partie_du_haut {
+    text-align: center;
+    margin: 5rem 0.5rem 3rem 0.5rem;
+}
 
 /* page Account : Thomas */
 
@@ -57,17 +128,17 @@ body{
 -
 /* ----------------------------- */
 
-.container_header_account
-{
+.container_header_account {
     position: absolute;
-    width:100%;
-    top:-20rem; 
+    width: 100%;
+    top: -20rem;
     left: -10rem;
 }
 
+
 .background_account
 {
-     width:200%;
+    width:200%;
 }
 
 .container_status_bar
@@ -75,12 +146,12 @@ body{
     position: absolute;
     width:100%;
     left: -2rem;
-    
+
 }
 
 .status_bar
 {
-    
+
 }
 
 
@@ -90,6 +161,7 @@ body{
 
 /* page Help : Aimé */
 
+<<<<<<< HEAD
 /* page Transfert : Dialo */
 
 .statut_bar
@@ -126,3 +198,6 @@ form input
     margin-top: 1.5rem;
     
 }
+=======
+/* page Transfert : Dialo */
+>>>>>>> 1e7c4ded9c29460e00221f4a8a37aaa93090433d
