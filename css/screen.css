@@ -13,12 +13,25 @@ body{
     background-color: #FFF; /* white */
     color: #000; /* black */
     font-family: 'Trebuchet MS',Arial,sans-serif;
-    
+
 }
 
 /* Attribution des pages */
 
 /* page Sign : Marc */
+.sign:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../img/backgroundSign.png) no-repeat center top;
+    background-size: 150% 35rem;
+    transform: translateY(-10.5rem);
+    z-index: -1;
+}
+
 .menu {
     width: 100%;
     position: relative;
@@ -29,17 +42,27 @@ body{
     z-index: 2;
 }
 .background_sign {
-    top: -15rem;
-    left: -8rem;
-    position: absolute;
-    z-index: 1;
+
 }
 .peach {
     top: 6rem;
-    left: 7rem;
+    left: 6rem;
+    color: #FFF;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+.money {
+    top: 9rem;
+    left: 6rem;
     color: #FFF;
     position: absolute;
     z-index: 1;
+}
+.sign_in {
+    top: 20rem;
+    left: 7rem;
+    position: absolute;
 }
 /* page Home : Laurent */
 
@@ -67,7 +90,7 @@ body{
 
 .background_account
 {
-     width:200%;
+    width:200%;
 }
 
 .container_status_bar
@@ -75,12 +98,12 @@ body{
     position: absolute;
     width:100%;
     left: -2rem;
-    
+
 }
 
 .status_bar
 {
-    
+
 }
 
 
