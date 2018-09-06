@@ -3,5 +3,10 @@ nbproject/private/private.properties
 nbproject/project.properties
 nbproject/project.xml
 nbproject/private/private.properties
+<<<<<<< HEAD
 nbproject/private/private.xml
+nbproject/private/private.properties
+=======
+nbproject/private/config.properties
+>>>>>>> a71b7fab27461569907e787afad2f065ef6a8f8e
 nbproject/private/private.properties
