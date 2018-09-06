@@ -178,8 +178,16 @@ body {
 
 .home_operation_align_right {
         text-align: right;
-        color: #D1D1D1;
         font-size: 1.5rem;
+        text-decoration: none;
+}
+
+.home_operation_align_right a {
+        color: #D1D1D1;
+}
+
+.home_icone div {
+        text-align: center;
 }
 
 /* page Account : Thomas */
