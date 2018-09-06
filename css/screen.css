@@ -107,7 +107,7 @@ body {
 }
 
 .align_left {
-        <<<<<<< HEAD text-align: left;
+    text-align: left;
 }
 
 .align_right {
@@ -127,7 +127,8 @@ body {
     -
     -
     /* ----------------------------- */
-
+.container_header_account
+{
 position: absolute;
 width: 100%;
 top: -20rem;
