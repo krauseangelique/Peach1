@@ -127,7 +127,8 @@ body {
     -
     -
     /* ----------------------------- */
-
+.container_header_account
+{
 position: absolute;
 width: 100%;
 top: -20rem;
