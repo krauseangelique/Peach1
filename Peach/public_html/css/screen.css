@@ -149,8 +149,12 @@ body {
 
 /* ----------------------------- */
 
-/* page Help : Aimé */
+/* page Help : Aimé/Angélique */
 
+.gradient_help{
+    background-color: yellow;
+    background-image: linear-gradient(to right, red, yellow);
+}
 /* page Transfert : Dialo */
 
 
