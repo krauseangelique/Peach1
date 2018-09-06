@@ -80,21 +80,38 @@ body {
     position: absolute;
     z-index: 1;
 }
-.nom_ou_email {
+.champ_1 {
     width: 100%;
     top: 25rem;
     display: inline-block;
     text-align: center;
     position: absolute;
 }
-.mot_de_passe {
+.champ_2 {
     width: 100%;
     top: 30rem;
     display: inline-block;
     text-align: center;
     position: absolute;
 }
+.champ_3 {
+    width: 100%;
+    top: 35rem;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+#nom {
+    width: 20rem;
+    height: 3rem; 
+    border-radius: 1rem;
+}
 #mot {
+    width: 20rem;
+    height: 3rem; 
+    border-radius: 1rem;
+}
+#passe {
     width: 20rem;
     height: 3rem; 
     border-radius: 1rem;
@@ -112,7 +129,7 @@ body {
 }
 .avez_pas {
     display: inline-block;
-        list-style:none;
+    list-style:none;
 }
 .compte {
     padding: 0px;
@@ -127,7 +144,7 @@ body {
 .enregistrer {
     padding: 0px;
     margin: 0px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     top: 40rem;
     display: inline-block;
@@ -135,7 +152,24 @@ body {
     right: 1rem;
     position: absolute; 
 }
+.step {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    top: 45rem;
+    display: inline-block;
+    list-style:none;
+    text-align: center;
+    position: absolute;
 
+}
+.step_in {
+    width: 2rem;
+
+}
+.step_out {
+    width: 1rem;
+}
 /* page Home : Laurent */
 
 .body_home {
