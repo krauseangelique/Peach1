@@ -81,6 +81,36 @@ body {
         z-index: 1;
 }
 
+.champ_1 {
+        width: 100%;
+        top: 25rem;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+}
+
+.champ_2 {
+        width: 100%;
+        top: 30rem;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+}
+
+.champ_3 {
+        width: 100%;
+        top: 35rem;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+}
+
+#nom {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 1rem;
+}
+
 .nom_ou_email {
         width: 100%;
         top: 25rem;
@@ -103,6 +133,12 @@ body {
         border-radius: 1rem;
 }
 
+#passe {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 1rem;
+}
+
 .perdu {
         padding: 0px;
         margin: 0px;
@@ -115,6 +151,8 @@ body {
 }
 
 .avez_pas {
+        display: inline-block;
+        list-style: none;
         display: inline-block;
         list-style: none;
 }
@@ -133,13 +171,32 @@ body {
 .enregistrer {
         padding: 0px;
         margin: 0px;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
         top: 40rem;
         display: inline-block;
         list-style: none;
         right: 1rem;
         position: absolute;
+}
+
+.step {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        top: 45rem;
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        position: absolute;
+}
+
+.step_in {
+        width: 2rem;
+}
+
+.step_out {
+        width: 1rem;
 }
 
 /* page Home : Laurent */
@@ -225,7 +282,12 @@ body {
 
 /* ----------------------------- */
 
-/* page Help : Aimé */
+/* page Help : Aimé/Angélique */
+
+.gradient_help {
+        background-color: yellow;
+        background-image: linear-gradient(to right, red, yellow);
+}
 
 /* page Transfert : Dialo */
 
