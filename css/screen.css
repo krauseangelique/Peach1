@@ -129,10 +129,10 @@ body {
     /* ----------------------------- */
 .container_header_account
 {
-position: absolute;
-width: 100%;
-top: -20rem;
-left: -10rem;
+    position: absolute;
+    width: 100%;
+    top: -20rem;
+    left: -10rem;
 }
 
 .background_account {
@@ -154,6 +154,10 @@ left: -10rem;
 /* page Transfert : Dialo */
 
 
+.transfer_partie_du_haut{
+    text-align: center;
+    margin: 2rem 5rem;
+}
 
 .transfer_align_left{
     text-align: left;
@@ -167,4 +171,36 @@ left: -10rem;
 
 .transfer_center{
     text-align: center;
+    margin-top: 5rem;
+}
+
+.transfer_form_center{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.transfer_form_center form input{
+    border: 1px solid #F0F0F0;
+    border-radius: 2rem;
+    width: 80%;
+    padding: 1.5rem 2rem;
+}
+
+
+
+.transfer_form_message{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.transfer_form_message form input{
+    border: 1px solid #F0F0F0;
+    border-radius: 2rem;
+    width: 80%;
+    padding: 1.5rem 5rem 10rem 2rem;
+}
+
+.transfer_remember{
+    text-align: center;
+    padding-top: 1rem;
 }
