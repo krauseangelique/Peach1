@@ -1,8 +1,8 @@
 /* Conventions de nommage et CSS de base */
 
-/* Définition des polices personnalisées */
+/* DÃ©finition des polices personnalisÃ©es */
 
-/* Eléments principaux de la page */
+/* ElÃ©ments principaux de la page */
 
 html {
     font-size: 16px;
@@ -122,7 +122,7 @@ body {
 }
 .avez_pas {
     display: inline-block;
-        list-style:none;
+    list-style:none;
 }
 .compte {
     padding: 0px;
@@ -144,6 +144,17 @@ body {
     list-style:none;
     right: 1rem;
     position: absolute; 
+}
+.r39 {
+
+    top: 145rem;
+    display: inline-block;
+    list-style:none;
+    right: 10rem;
+    position: absolute; 
+}
+.r40 {
+
 }
 /* page Home : Laurent */
 
@@ -184,7 +195,7 @@ body {
 
     /* page Account : Thomas */
 
-    /* ----- classes utilisées ----- *\ 
+    /* ----- classes utilisÃ©es ----- *\ 
         
         - background_account
         - container_header_account
@@ -226,7 +237,7 @@ body {
 
         /* ----------------------------- */
 
-        /* page Help : Aimé */
+        /* page Help : AimÃ© */
 
         <<<<<<< HEAD
         /* page Transfert : Dialo */
