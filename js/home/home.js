@@ -1,5 +1,5 @@
 $(document).ready(function () {
-        $('.slider_home').slick({
+        $('.home_slider').slick({
                 centerMode: false,
                 centerPadding: '60px',
                 infinite: true,
