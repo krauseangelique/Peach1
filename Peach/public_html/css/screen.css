@@ -334,6 +334,27 @@ body {
 }
 
 .transfer_remember {
+<<<<<<< HEAD
         text-align: center;
         padding-top: 1rem;
 }
+=======
+    text-align: center;
+    padding-top: 1rem;
+}
+.gradient{
+    background-image: linear-gradient(to right,#E0647B,#FCDD89);
+     border: 1px solid #F0F0F0;
+    border-radius: 10rem;
+    width: 15%;
+     padding: 1rem 1.5rem;
+     color: white;
+     text-align: center;
+     float: right;
+     
+}
+.help{
+     text-align: center;
+}
+
+>>>>>>> 6a7f89ddf7a7e9c968ece2a39ee1ccf463cb87db
